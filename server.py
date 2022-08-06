@@ -8,6 +8,7 @@ from datetime import date
 # initialize our Flask application
 app = Flask(__name__)
 
+#Post server info (Server's purpose, todays date, creator)
 @app.route("/name", methods=["POST"])
 def setName():
     today = date.today()
