@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors-Classification-Model
-Written in python, this program takes the name of a image file as an argument from the commmand line and runs the file through a classification model to determine if the this was an excellent project for self learning.
+Written in python, this program includes a server run that recieves an image file from the client program which takes the name of the image file as an argument from the commmand line and runs the file through a classification model on the server to determine if the picture is a hand formed as rock paper or scissors. The server then sends the result back to the client and has the client program display the results in the terminal. This was an excellent project for self learning.
